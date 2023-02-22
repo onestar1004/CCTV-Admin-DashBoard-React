@@ -1,0 +1,58 @@
+{
+  "duty-for-cleaning": [
+    {
+      "day": "Monday",
+      "date": "2022-05-30",
+      "name": "RiJuYun",
+      "time": "2:00 pm ~ 3:00 pm"
+    },
+    {
+      "day": "Tuesday",
+      "date": "2022-05-31",
+      "name": "RiJuYun",
+      "time": "2:00 pm ~ 3:00 pm"
+    },
+    {
+      "day": "Wednesday",
+      "date": "2022-06-01",
+      "name": "RiJuYun",
+      "time": "2:00 pm ~ 3:00 pm"
+    },
+    {
+      "day": "Thursday",
+      "date": "2022-06-02",
+      "name": "RiJuYun",
+      "time": "2:00 pm ~ 3:00 pm"
+    },
+    {
+      "day": "Friday",
+      "date": "2022-06-03",
+      "name": "RiJuYun",
+      "time": "2:00 pm ~ 3:00 pm"
+    },
+    {
+      "day": "Saturday",
+      "date": "2022-06-04",
+      "name": "Above all members",
+      "time": "8:00 am ~ 9:00 am"
+    }
+  ],
+  "duty-for-water": [
+    {
+      "date": "2022-05-23 ~ 2022-05-29",
+      "name": "Team1, Team2"
+    },
+    {
+      "date": "2022-05-30 ~ 2022-06-04",
+      "name": "Team3, Team4"
+    },
+    {
+      "date": "2022-06-05 ~ 2022-06-12",
+      "name": "Team5, Team6"
+    },
+    {
+      "date": "2022-06-13 ~ 2022-06-19",
+      "name": "Team7"
+    }
+  ]
+}

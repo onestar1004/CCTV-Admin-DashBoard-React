@@ -1,0 +1,1 @@
+npm un @tabler/icons react-perfect-scrollbar material-ui-popup-state @mui/icons-material react-device-detect framer-motion
