@@ -11,7 +11,6 @@ import Logo from './../../../components/Logo';
 import AuthCardWrapper from '../AuthCardWrapper';
 import RestLogin from './Login';
 
-// assets
 
 //================================|| LOGIN MAIN ||================================//
 
