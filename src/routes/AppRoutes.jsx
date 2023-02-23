@@ -12,32 +12,21 @@ const DashBoard = Loadable(lazy(() => import('pages/DashBoard')));
 const PaymentHistory = Loadable(lazy(() => import('pages/PaymentHistory')));
 const Login = Loadable(lazy(() => import('pages/Auth/Login')));
 const Register = Loadable(lazy(() => import('pages/Auth/Register')));
+const Authentication = Loadable(lazy(() => import('../routes/AuthenticationRoutes')));
 
 const router = createHashRouter([
   {
     path: '/',
-    element: <Layout />,
+    element: <Authentication><Layout /></Authentication>,
     children: [
       {
         path: '/',
-        element: <DashBoard />,
-      },
-      {
-        path: 'dashboard',
-        element: <DashBoard />,
+        element: <Authentication><DashBoard /></Authentication>,
       },
       {
         path: 'payment-history',
-        element: <PaymentHistory />,
+        element: <Authentication><PaymentHistory /></Authentication>,
       },
-      // {
-      //   path: 'login',
-      //   element: <Login />
-      // },
-      // {
-      //   path: 'register',
-      //   element: <Register />
-      // }
     ],
   },
   {    
