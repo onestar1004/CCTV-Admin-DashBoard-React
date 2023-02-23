@@ -35,8 +35,8 @@ export default dashboardSlice.reducer;
 export const fetchDutyForCleaning = () => (dispatch) => {
   dashboardAPI
     .getDutyForCleaning()
-    .then((res) => {
-      dispatch(getDutyForCleaning(res.data));
+    .then((response) => {
+      dispatch(getDutyForCleaning(response.data));
     })
     .catch((err) => {
       dispatch(getErrors(err));
@@ -46,8 +46,8 @@ export const fetchDutyForCleaning = () => (dispatch) => {
 export const fetchDutyForWater = () => (dispatch) => {
   dashboardAPI
     .getDutyForWater()
-    .then((res) => {
-      dispatch(getDutyForWater(res.data));
+    .then((response) => {
+      dispatch(getDutyForWater(response.data));
     })
     .catch((err) => {
       dispatch(getErrors(err));
