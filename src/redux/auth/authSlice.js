@@ -65,7 +65,6 @@ export const fetchRegister = (values, navigate) => (dispatch) => {
     .getRegister(values)
     .then((response) => {
       if (response.data.success) {
-        console.log('################');
         navigate('/login');
         dispatch(getRegister(
           { success: true, msg: response.data.msg }
